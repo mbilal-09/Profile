@@ -26,7 +26,7 @@ const greeting = {
     "A dedicated Full Stack Web Developer 🚀 with a strong passion for building cutting-edge web applications using JavaScript, React.js, Node.js, and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -188,8 +188,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/todoList.png"),
-      projectName: "TodoList",
-      projectDesc: "",
+      projectName: "Todo List",
+      projectDesc: "Html, Css, JavaScript, Firebase",
       footerLink: [
         {
           name: "View",
@@ -199,13 +199,90 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saylani.jpg"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chatapp.png"),
+      projectName: "Chat App",
+      projectDesc: "Html, Css, JavaScript, Firebase",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View",
+          url: "https://mbilal-09.github.io/chat-app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/weatherapp.png"),
+      projectName: "Weather App",
+      projectDesc: "NextJs, JavaScript, Redux, Tailwind",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://weather-app-mbilal-09.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/e-commerce.png"),
+      projectName: "E-Commerce",
+      projectDesc: "Next, JavaScript, Tailwind",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://ecommerce-ashy-eight.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/blogapp.png"),
+      projectName: "Blog App",
+      projectDesc: "Html, Css, JavaScript, Firebase, Bootstrap",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://mbilal-09.github.io/test/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/macy.png"),
+      projectName: "Macy's Clone",
+      projectDesc: "Html, Css, JavaScript, Bootstrap",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://mbilal-09.github.io/Macy-s/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/texteditor.png"),
+      projectName: "Text Editor",
+      projectDesc: "Html, JavaScript, React, Bootstrap",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://mbilal-09.github.io/text-utils/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/e-commerce1.png"),
+      projectName: "E-Commerce",
+      projectDesc: "Html, Css, JavaScript, Firebase, Bootstrap",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://mbilal-09.github.io/ecommerce_website/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/clock.png"),
+      projectName: "Clock",
+      projectDesc: "Html, Css, JavaScript",
+      footerLink: [
+        {
+          name: "View",
+          url: "https://mbilal-09.github.io/clock/"
         }
       ]
     },
@@ -271,7 +348,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -280,7 +357,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -295,7 +372,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -314,7 +391,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -327,21 +404,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji(`Contact Me 🕿`),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for you.",
+  number: "+92-310-0057569",
+  email_address: "bilalkhanshakir@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "mbilal_2004", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

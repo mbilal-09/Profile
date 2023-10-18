@@ -14,7 +14,8 @@
 
 .contact-title {
   font-size: 65px;
-  font-weight: 400;
+  font-weight: 100;
+  color: $buttonColor;
 }
 
 .contact-detail,
@@ -28,8 +29,7 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: $textColor;
-  text-shadow: 2px 1px 2px $contactDetailHoverTS;
+  color: $buttonColor;
   transition: all 0.3s;
 }
 
@@ -45,9 +45,14 @@
   margin-top: 4rem;
 }
 
+.contact-image-div {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-image-div > img {
   max-width: 100%;
-  height: auto;
+  height: 500px;
   margin-left: 1.5rem;
   margin-top: -4rem;
 }
