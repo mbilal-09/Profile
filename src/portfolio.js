@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A dedicated Full Stack Web Developer 🚀 with a strong passion for building cutting-edge web applications using JavaScript, React.js, Node.js, and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "#", // Set to empty to hide the button
+  resumeLink: "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,11 +46,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do", 
-  subTitle: "An inquisitive Full Stack Developer on a mission to conquer every tech stack with a touch of madness and a lot of innovation",
+  title: "What I do",
+  subTitle:
+    "An inquisitive Full Stack Developer on a mission to conquer every tech stack with a touch of madness and a lot of innovation",
   skills: [
-    emoji("⚡ Craft engaging and interactive user interfaces for your web applications"),
-    emoji("⚡ Enhance website performance and ensure cross-device compatibility"),
+    emoji(
+      "⚡ Craft engaging and interactive user interfaces for your web applications"
+    ),
+    emoji(
+      "⚡ Enhance website performance and ensure cross-device compatibility"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -106,7 +110,7 @@ const educationInfo = {
       duration: "December 2022 - November 2023",
       desc: "",
       descBullets: []
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -285,7 +289,7 @@ const bigProjects = {
           url: "https://mbilal-09.github.io/clock/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

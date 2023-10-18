@@ -53,10 +53,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-              <img
-                alt="footer picture"
-                src={require("../../assets/images/footerpicter.png")}
-              ></img>
+            <img
+              alt="footer picture"
+              src={require("../../assets/images/footerpicter.png")}
+            ></img>
           </div>
         </div>
       </div>
