@@ -1,11 +1,1 @@
-{
-  "data": {
-    "user": {
-      "name": "M Bilal",
-      "bio": "Passionate web developer crafting interactive experiences. Front-end & back-end expertise. Clean code. Let's build something amazing! 🚀💻",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/121584126?u=a55f59399bd2b1d90a105ac1e264923ebadfabcb&v=4",
-      "location": "Karachi, Pakistan",
-      "pinnedItems": {"totalCount": 0, "edges": []}
-    }
-  }
-}
+{"data":{"user":{"name":"M Bilal","bio":"Passionate web developer crafting interactive experiences. Front-end & back-end expertise. Clean code. Let's build something amazing! 🚀💻","avatarUrl":"https://avatars.githubusercontent.com/u/121584126?u=a55f59399bd2b1d90a105ac1e264923ebadfabcb&v=4","location":"Karachi, Pakistan","pinnedItems":{"totalCount":0,"edges":[]}}}}

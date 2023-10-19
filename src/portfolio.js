@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A dedicated Full Stack Web Developer 🚀 with a strong passion for building cutting-edge web applications using JavaScript, React.js, Node.js, and some other cool libraries and frameworks."
   ),
-  resumeLink: "#", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/19p6zcVaWKwx3qxGOMKcURaJjD7qo8eN0/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -196,7 +196,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript, Firebase",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/todo_list/"
         }
         //  you can add extra buttons here.
@@ -208,7 +208,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript, Firebase",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/chat-app/"
         }
       ]
@@ -219,7 +219,7 @@ const bigProjects = {
       projectDesc: "NextJs, JavaScript, Redux, Tailwind",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://weather-app-mbilal-09.vercel.app/"
         }
       ]
@@ -230,7 +230,7 @@ const bigProjects = {
       projectDesc: "Next, JavaScript, Tailwind",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://ecommerce-ashy-eight.vercel.app/"
         }
       ]
@@ -241,7 +241,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript, Firebase, Bootstrap",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/test/"
         }
       ]
@@ -252,7 +252,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript, Bootstrap",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/Macy-s/"
         }
       ]
@@ -263,7 +263,7 @@ const bigProjects = {
       projectDesc: "Html, JavaScript, React, Bootstrap",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/text-utils/"
         }
       ]
@@ -274,7 +274,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript, Firebase, Bootstrap",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/ecommerce_website/"
         }
       ]
@@ -285,7 +285,7 @@ const bigProjects = {
       projectDesc: "Html, Css, JavaScript",
       footerLink: [
         {
-          name: "View",
+          name: "Visit Project",
           url: "https://mbilal-09.github.io/clock/"
         }
       ]
